@@ -1,0 +1,57 @@
+----------------------------------------
+Timestamp: 7/17/2016 1:30:24 AM
+
+Message: HandlingInstanceID: 10f80e0b-d4d6-4bea-a12c-c6474d5eafe0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 11:30:24
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 1:30:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131131925423529636
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:41287/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131131925423529636
+
+ProcessId: 8712
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9136
+
+Extended Properties: 
+----------------------------------------

@@ -1,0 +1,30 @@
+﻿{
+
+
+
+  "priority": 1,
+
+
+
+  "components": [ "sf-event-selector" ],
+
+
+  "scripts": [
+
+    "Mvc/Scripts/Angular/angular-resource.min.js",
+
+    "client-components/selectors/common/sf-services.js",
+
+    "client-components/selectors/news/sf-news-item-service.js",
+
+    "client-components/selectors/common/sf-selectors.js",
+
+    "client-components/selectors/common/sf-list-selector.js",
+
+    "client-components/selectors/news/sf-news-selector.js"
+
+  ]
+
+
+
+}

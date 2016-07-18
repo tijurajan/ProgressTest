@@ -1,0 +1,1698 @@
+----------------------------------------
+Timestamp: 7/17/2016 3:01:13 PM
+
+Message: HandlingInstanceID: d7b978c8-2038-4ace-9f24-8ef1a055e958
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 01:01:13
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Invalid details page specified: "00000000-0000-0000-0000-000000000000".
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.String Resolve(System.Object, System.String, System.String)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Web.DataResolving.UrlResolver.Resolve(Object dataItem, String format, String args)
+   at Telerik.Sitefinity.Frontend.Mvc.Helpers.HyperLinkHelpers.GetDetailPageUrl(ItemViewModel item, Guid detailsPageId, Boolean openInSamePage, String urlKeyPrefix)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute5[T0,T1,T2,T3,T4,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4)
+   at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 14
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 3:01:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132410006552851
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/about-us/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132410006552851
+
+ProcessId: 7096
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3716
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 3:06:52 PM
+
+Message: HandlingInstanceID: 1489e637-ec81-4d22-bd4d-3682e596ac3f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 01:06:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 3:06:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-13-131132415263838373
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-13-131132415263838373
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3316
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 3:51:19 PM
+
+Message: HandlingInstanceID: 51311a21-9f9d-40ff-9a54-5394580e92f3
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+07/18/2016 01:51:19
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Modules.Pages.Web.Services.Model.WcfControlProperty[]. End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterDataContractMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.FormsPostDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.CompositeDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 3:51:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132441334765145
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/f5d9810a-302f-6d0a-ae33-ff000069ff7d/?pageId=8bd5810a-302f-6d0a-ae33-ff000069ff7d&mediaType=0&propertyLocalization=0
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.String, System.String, System.String, System.String)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, String res, String arg1, String arg2, String arg3)
+	   at System.Xml.XmlExceptionHelper.ThrowEndElementExpected(XmlDictionaryReader reader, String localName, String ns)
+	   at System.Xml.XmlBaseReader.ReadEndElement()
+	   at System.Xml.XmlBaseReader.ReadElementContentAsString()
+	   at System.Runtime.Serialization.XmlReaderDelegator.ReadElementContentAsString()
+	   at ReadWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+	   at System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle, String name, String ns)
+	   at ReadArrayOfWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+	   at System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132441334765145
+
+ProcessId: 3832
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12152
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 3:52:10 PM
+
+Message: HandlingInstanceID: a17f1740-4b44-4c60-be7c-077e2bd2717e
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+07/18/2016 01:52:10
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Modules.Pages.Web.Services.Model.WcfControlProperty[]. End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterDataContractMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.FormsPostDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.CompositeDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 3:52:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132441334765145
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/f5d9810a-302f-6d0a-ae33-ff000069ff7d/?pageId=8bd5810a-302f-6d0a-ae33-ff000069ff7d&mediaType=0&propertyLocalization=0
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.String, System.String, System.String, System.String)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, String res, String arg1, String arg2, String arg3)
+	   at System.Xml.XmlExceptionHelper.ThrowEndElementExpected(XmlDictionaryReader reader, String localName, String ns)
+	   at System.Xml.XmlBaseReader.ReadEndElement()
+	   at System.Xml.XmlBaseReader.ReadElementContentAsString()
+	   at System.Runtime.Serialization.XmlReaderDelegator.ReadElementContentAsString()
+	   at ReadWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+	   at System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle, String name, String ns)
+	   at ReadArrayOfWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+	   at System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132441334765145
+
+ProcessId: 3832
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:828
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 3:52:12 PM
+
+Message: HandlingInstanceID: 28cbb670-4225-48bb-8e0c-f8deba037dfc
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+07/18/2016 01:52:12
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Modules.Pages.Web.Services.Model.WcfControlProperty[]. End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterDataContractMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.FormsPostDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.CompositeDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 3:52:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132441334765145
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/f5d9810a-302f-6d0a-ae33-ff000069ff7d/?pageId=8bd5810a-302f-6d0a-ae33-ff000069ff7d&mediaType=0&propertyLocalization=0
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.String, System.String, System.String, System.String)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, String res, String arg1, String arg2, String arg3)
+	   at System.Xml.XmlExceptionHelper.ThrowEndElementExpected(XmlDictionaryReader reader, String localName, String ns)
+	   at System.Xml.XmlBaseReader.ReadEndElement()
+	   at System.Xml.XmlBaseReader.ReadElementContentAsString()
+	   at System.Runtime.Serialization.XmlReaderDelegator.ReadElementContentAsString()
+	   at ReadWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+	   at System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle, String name, String ns)
+	   at ReadArrayOfWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+	   at System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132441334765145
+
+ProcessId: 3832
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 3:57:54 PM
+
+Message: HandlingInstanceID: 81e2a451-bd48-4c11-9aec-2e6db154c30d
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+07/18/2016 01:57:54
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Modules.Pages.Web.Services.Model.WcfControlProperty[]. End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterDataContractMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.FormsPostDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.CompositeDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 3:57:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132445500104695
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/f5d9810a-302f-6d0a-ae33-ff000069ff7d/?pageId=8bd5810a-302f-6d0a-ae33-ff000069ff7d&mediaType=0&propertyLocalization=0
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.String, System.String, System.String, System.String)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, String res, String arg1, String arg2, String arg3)
+	   at System.Xml.XmlExceptionHelper.ThrowEndElementExpected(XmlDictionaryReader reader, String localName, String ns)
+	   at System.Xml.XmlBaseReader.ReadEndElement()
+	   at System.Xml.XmlBaseReader.ReadElementContentAsString()
+	   at System.Runtime.Serialization.XmlReaderDelegator.ReadElementContentAsString()
+	   at ReadWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+	   at System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle, String name, String ns)
+	   at ReadArrayOfWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+	   at System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132445500104695
+
+ProcessId: 5652
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8004
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 4:08:29 PM
+
+Message: HandlingInstanceID: 6b331f5e-0de2-4c20-b6fe-da8eafec244f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 02:08:29
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 4:08:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132452386734254
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132452386734254
+
+ProcessId: 9804
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5560
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 4:15:53 PM
+
+Message: HandlingInstanceID: e1d81a85-621f-49b1-9db4-a2f79d26b299
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 02:15:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 4:15:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132456570965508
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132456570965508
+
+ProcessId: 10860
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 4:18:36 PM
+
+Message: HandlingInstanceID: 4eca3422-cf4b-4e00-bcd4-238482479e9d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 02:18:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 4:18:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-15-131132458282156727
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-15-131132458282156727
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:7344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 4:45:02 PM
+
+Message: HandlingInstanceID: 67603542-6be4-4f6e-a933-c0ec0ba06401
+An exception of type 'System.Runtime.Serialization.SerializationException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+07/18/2016 02:45:02
+Type : System.Runtime.Serialization.SerializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was an error deserializing the object of type Telerik.Sitefinity.Modules.Pages.Web.Services.Model.WcfControlProperty[]. End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+Source : System.Runtime.Serialization
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object ReadObjectHandleExceptions(System.Runtime.Serialization.XmlReaderDelegator, Boolean, System.Runtime.Serialization.DataContractResolver)
+HResult : -2146233076
+Stack Trace :    at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterDataContractMessageFormatter.ReadObject(Message message)
+   at System.ServiceModel.Dispatcher.SingleBodyParameterMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DemultiplexingDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.UriTemplateDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.FormsPostDispatchMessageFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.CompositeDispatchFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 4:45:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132473471865026
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/abdd810a-302f-6d0a-ae33-ff000069ff7d/?pageId=8bd5810a-302f-6d0a-ae33-ff000069ff7d&mediaType=0&propertyLocalization=0
+	Inner Exception
+	---------------
+	Type : System.Xml.XmlException, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : End element 'PropertyValue' from namespace '' expected. Found element 'AdditionalStatus' from namespace ''.
+	Source : System.Runtime.Serialization
+	Help link : 
+	LineNumber : 0
+	LinePosition : 0
+	SourceUri : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ThrowXmlException(System.Xml.XmlDictionaryReader, System.String, System.String, System.String, System.String)
+	HResult : -2146232000
+	Stack Trace :    at System.Xml.XmlExceptionHelper.ThrowXmlException(XmlDictionaryReader reader, String res, String arg1, String arg2, String arg3)
+	   at System.Xml.XmlExceptionHelper.ThrowEndElementExpected(XmlDictionaryReader reader, String localName, String ns)
+	   at System.Xml.XmlBaseReader.ReadEndElement()
+	   at System.Xml.XmlBaseReader.ReadElementContentAsString()
+	   at System.Runtime.Serialization.XmlReaderDelegator.ReadElementContentAsString()
+	   at ReadWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+	   at System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle, String name, String ns)
+	   at ReadArrayOfWcfControlPropertyFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+	   at System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+	   at System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+	   at System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+	   at System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+	   at System.Runtime.Serialization.XmlObjectSerializer.InternalReadObject(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+	   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132473471865026
+
+ProcessId: 10612
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 4:49:10 PM
+
+Message: HandlingInstanceID: e3a75b68-065a-41d0-9a03-985bb194b720
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 02:49:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 4:49:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-16-131132476421012357
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-16-131132476421012357
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:12:47 PM
+
+Message: HandlingInstanceID: 2b1a477b-1a0f-428c-b937-0f3c409ca2c6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 09:12:47
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:12:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132706447966829
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132706447966829
+
+ProcessId: 8044
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10188
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:19:41 PM
+
+Message: HandlingInstanceID: c888cab9-9d13-478c-92a3-10ad385b95bf
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 09:19:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:19:41 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132709174727634
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/undefined
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132709174727634
+
+ProcessId: 9876
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7200
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:20:07 PM
+
+Message: HandlingInstanceID: b5974c08-4476-43f8-8907-689d807a060a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 09:20:07
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:20:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132709174727634
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/undefined
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132709174727634
+
+ProcessId: 9876
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1536
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:43:37 PM
+
+Message: HandlingInstanceID: a75de844-a539-4bad-968f-830dc0f49f80
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 09:43:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:43:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132724625982546
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Frontend-Assembly/Telerik.Sitefinity.Frontend/undefined
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132724625982546
+
+ProcessId: 8896
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5424
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:53:29 PM
+
+Message: HandlingInstanceID: fc53eac0-9b2c-4420-a2b8-3d9fcece02a0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 09:53:29
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:53:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132730546616332
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132730546616332
+
+ProcessId: 9164
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9932
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 12:05:18 AM
+
+Message: HandlingInstanceID: e6f66bca-ab20-46a6-b2fc-39a983d5ee8b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 10:05:18
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 12:05:18 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132738205507773
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132738205507773
+
+ProcessId: 4632
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 12:17:36 AM
+
+Message: HandlingInstanceID: 9d5c420a-24f5-47ee-876c-1d872b034a14
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 10:17:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 12:17:36 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-19-131132745366066182
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-19-131132745366066182
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:7804
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 12:32:48 AM
+
+Message: HandlingInstanceID: f0a94a81-d61b-4ab7-8214-1acb8a42b780
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 10:32:48
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 12:32:48 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132754522482003
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132754522482003
+
+ProcessId: 9668
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6852
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 12:35:37 AM
+
+Message: HandlingInstanceID: 02870a73-0cd4-4989-9a85-0a224bd72bd8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 10:35:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 12:35:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-20-131132755824926920
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-20-131132755824926920
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:7396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 12:42:08 AM
+
+Message: HandlingInstanceID: d98bd4df-00e7-419d-8e6b-f9746c3d7bf0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 10:42:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 12:42:08 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-21-131132760115432174
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-21-131132760115432174
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:2632
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 1:26:39 AM
+
+Message: HandlingInstanceID: 2841a446-a847-4344-9a5e-6e9c5d1edf8b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 11:26:39
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 1:26:39 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-23-131132787111751865
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-23-131132787111751865
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:7192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 1:50:28 AM
+
+Message: HandlingInstanceID: 15464c1f-df3d-447c-8cea-46f6849aa74b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 11:50:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 1:50:28 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-24-131132801288662771
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-24-131132801288662771
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10760
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 1:50:28 AM
+
+Message: HandlingInstanceID: 281d0643-4d8d-44a0-b8cd-408056b71aa6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 11:50:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 1:50:28 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-24-131132801288662771
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-24-131132801288662771
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12440
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 2:08:17 AM
+
+Message: HandlingInstanceID: 12c28dc4-b105-41a2-9b80-a8d63bbc62e4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 12:08:17
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 2:08:17 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132811733380071
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132811733380071
+
+ProcessId: 10904
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13896
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/18/2016 2:11:31 AM
+
+Message: HandlingInstanceID: 587d21a6-bed6-4aeb-b6a5-e3af8d47d181
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/18/2016 12:11:31
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/18/2016 2:11:31 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-26-131132814319347135
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-26-131132814319347135
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12440
+
+Extended Properties: 
+----------------------------------------

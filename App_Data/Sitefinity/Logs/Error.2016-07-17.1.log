@@ -1,0 +1,2519 @@
+----------------------------------------
+Timestamp: 7/15/2016 9:30:48 AM
+
+Message: HandlingInstanceID: 92dbb3e2-e1a9-41ce-bef6-ca971eefc9e4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 19:30:48
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 9:30:48 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131130485508521489
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:25402/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131130485508521489
+
+ProcessId: 7136
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10388
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 9:30:58 AM
+
+Message: HandlingInstanceID: 721d1ce0-1d82-4737-be61-ab8e0ab42ff5
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 19:30:58
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The controller with the name 'SitefinityWebApp.Mvc.Controllers.MyEvenWidgetController' cannot be resolved.
+Source : Telerik.Sitefinity.Mvc
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.IController CreateController(System.Web.Routing.RequestContext, System.String)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Mvc.SitefinityControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.FrontendControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy.get_Controller()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.TryInvokeAction(MvcProxyBase proxyControl, String& output)
+   at Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy.ExecuteController()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 9:30:58 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131130485508521489
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:25402/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131130485508521489
+
+ProcessId: 7136
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 9:45:35 AM
+
+Message: HandlingInstanceID: 2fc98a41-87c2-4aec-9fcd-18274177ff42
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 19:45:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 9:45:35 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131130494600193380
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:13228/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131130494600193380
+
+ProcessId: 2488
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10588
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 9:46:56 AM
+
+Message: HandlingInstanceID: c39a97b7-d83e-4bfc-b814-b9df26d9446d
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 19:46:56
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The controller with the name 'SitefinityWebApp.Mvc.Controllers.MyEvenWidgetController' cannot be resolved.
+Source : Telerik.Sitefinity.Mvc
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.IController CreateController(System.Web.Routing.RequestContext, System.String)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Mvc.SitefinityControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.FrontendControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy.get_Controller()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.TryInvokeAction(MvcProxyBase proxyControl, String& output)
+   at Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy.ExecuteController()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 9:46:56 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131130494600193380
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:13228/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131130494600193380
+
+ProcessId: 2488
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10496
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:15:41 AM
+
+Message: HandlingInstanceID: 997db4b7-a332-4e7d-a379-a97c37296063
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:15:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:15:41 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131130512792939386
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:13228/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131130512792939386
+
+ProcessId: 2488
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8892
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:24:47 AM
+
+Message: HandlingInstanceID: aee6a8d8-05e7-4918-b55c-0223599925b5
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:24:47
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:24:47 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131130518297687163
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:13228/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131130518297687163
+
+ProcessId: 2488
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4604
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:36:39 AM
+
+Message: HandlingInstanceID: 54c18ceb-c4e5-4838-83f7-bdcf523321c2
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:36:39
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:36:39 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131130525228279010
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131130525228279010
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10636
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:42:49 AM
+
+Message: HandlingInstanceID: a11c96cf-2674-4592-9877-dc8fa0e3f2fc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:42:49
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:42:49 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131130528828295562
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131130528828295562
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:48:08 AM
+
+Message: HandlingInstanceID: 6c576e32-42b9-4df2-918c-c2e0a3f8f17a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:48:08
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:48:08 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-4-131130532218135944
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-4-131130532218135944
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10988
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:52:30 AM
+
+Message: HandlingInstanceID: 64b99341-a653-41a0-9797-83578f7b176e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:52:30
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:52:30 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131130534669510657
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131130534669510657
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9788
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 10:57:28 AM
+
+Message: HandlingInstanceID: cc397b59-bd5c-47be-84ea-4308b95e73e7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 20:57:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 10:57:28 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-6-131130537611536838
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-6-131130537611536838
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9788
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 11:11:23 AM
+
+Message: HandlingInstanceID: 920acfa0-f653-498f-9660-be2969c7af0e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 21:11:23
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 11:11:23 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-7-131130545972818279
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-7-131130545972818279
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 11:49:50 AM
+
+Message: HandlingInstanceID: 11f2eeb5-4064-4906-b8cf-bc592f527af1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 21:49:50
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 11:49:50 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-8-131130568996631918
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-8-131130568996631918
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:668
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 11:49:59 AM
+
+Message: HandlingInstanceID: 0063e77c-b080-4c6e-b1e0-45fcb7aa7f3a
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 21:49:59
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.Generic.IList`1[System.String] DeserializeItems()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.DeserializeItems() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 38
+   at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 28
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 11:49:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-8-131130568996631918
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-8-131130568996631918
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10428
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:00:50 PM
+
+Message: HandlingInstanceID: 857d65b5-daaf-45a9-b007-94200e8cdf35
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 23:00:50
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:00:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-9-131130611546471326
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-9-131130611546471326
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:6460
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:00:59 PM
+
+Message: HandlingInstanceID: 635d9cd8-a440-4b17-bb8a-637a37f4aa08
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 23:00:59
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ActionResult Index()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 31
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:00:59 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-9-131130611546471326
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-9-131130611546471326
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:01:59 PM
+
+Message: HandlingInstanceID: eacde571-6b92-46cf-bb85-019e58fc09f6
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 23:01:59
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ActionResult Index()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 31
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:01:59 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-9-131130611546471326
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-9-131130611546471326
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10428
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:02:17 PM
+
+Message: HandlingInstanceID: 7182e7ea-6428-415e-898c-d8af3835066b
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 23:02:17
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ActionResult Index()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 31
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:02:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-9-131130611546471326
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-9-131130611546471326
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:03:12 PM
+
+Message: HandlingInstanceID: 2a909ff5-5bc2-48f8-b8e4-e00a1f91a21c
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 23:03:12
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ActionResult Index()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 31
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:03:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-9-131130611546471326
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-9-131130611546471326
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:12:40 PM
+
+Message: HandlingInstanceID: 0c4d73c8-aed4-41a1-b638-fdf54d064423
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 23:12:40
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:12:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-10-131130618826626165
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-10-131130618826626165
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:12:48 PM
+
+Message: HandlingInstanceID: d50ba494-3835-467c-b403-85db7048afd8
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 23:12:48
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ActionResult Index()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 31
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:12:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-10-131130618826626165
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-10-131130618826626165
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5864
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:13:15 PM
+
+Message: HandlingInstanceID: 477b45b5-2e8b-4c95-b0c9-3f086ec2e243
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/15/2016 23:13:15
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ActionResult Index()
+HResult : -2147467261
+Stack Trace :    at SitefinityWebApp.Mvc.Controllers.MyEventWidgetController.Index() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\Mvc\Controllers\MyEventWidgetController.cs:line 31
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:13:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-10-131130618826626165
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-10-131130618826626165
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:960
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:34:15 PM
+
+Message: HandlingInstanceID: 277d8935-ad24-4618-817a-ada9ade1cff6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 23:34:15
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:34:15 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-11-131130631678124353
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-11-131130631678124353
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:34:25 PM
+
+Message: HandlingInstanceID: f44e6cbe-31de-452b-add6-4707eef0c69a
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+07/15/2016 23:34:25
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'List.EventsList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/MyEventWidget/List.EventsList.cshtml
+~/Views/Shared/List.EventsList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.cshtml
+~/Views/MyEventWidget/List.EventsList.aspx
+~/Views/MyEventWidget/List.EventsList.ascx
+~/Views/Shared/List.EventsList.aspx
+~/Views/Shared/List.EventsList.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.ascx#Bootstrap.ascx
+~/Views/MyEventWidget/List.EventsList.vbhtml
+~/Views/Shared/List.EventsList.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.vbhtml#Bootstrap.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:34:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-11-131130631678124353
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-11-131130631678124353
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8832
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:34:51 PM
+
+Message: HandlingInstanceID: d53b01eb-5f13-428a-b55b-8b1bc0abf55f
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+07/15/2016 23:34:51
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'List.EventsList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/MyEventWidget/List.EventsList.cshtml
+~/Views/Shared/List.EventsList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.cshtml
+~/Views/MyEventWidget/List.EventsList.aspx
+~/Views/MyEventWidget/List.EventsList.ascx
+~/Views/Shared/List.EventsList.aspx
+~/Views/Shared/List.EventsList.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.ascx#Bootstrap.ascx
+~/Views/MyEventWidget/List.EventsList.vbhtml
+~/Views/Shared/List.EventsList.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventsList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventsList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventsList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventsList.vbhtml#Bootstrap.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:34:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-11-131130631678124353
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-11-131130631678124353
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5764
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 1:40:25 PM
+
+Message: HandlingInstanceID: d768918f-bf6f-432d-8d91-70d60e075676
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/15/2016 23:40:25
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 1:40:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-12-131130635389979996
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-12-131130635389979996
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5580
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 2:13:12 PM
+
+Message: HandlingInstanceID: 017cbcd4-2679-4a21-aa9d-e96e747e4044
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 00:13:12
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 2:13:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-13-131130655099438881
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-13-131130655099438881
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 2:17:47 PM
+
+Message: HandlingInstanceID: c6a08c72-0483-48e9-b0e9-dd5a892409fa
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 00:17:47
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 2:17:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-14-131130658036252468
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-14-131130658036252468
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:752
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 2:23:54 PM
+
+Message: HandlingInstanceID: 8368c19b-408d-4732-ad7a-cd337158f41b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 00:23:53
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 2:23:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-15-131130661575095081
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-15-131130661575095081
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10172
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 2:53:51 PM
+
+Message: HandlingInstanceID: 4ac5fb51-e667-47a9-b718-2d45497528ce
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 00:53:51
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 2:53:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-16-131130679426372859
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-16-131130679426372859
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3896
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 2:53:51 PM
+
+Message: HandlingInstanceID: 7ef4c3a2-f4f7-4a0f-8faf-9b150486591c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 00:53:51
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 2:53:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-16-131130679426372859
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-16-131130679426372859
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9964
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 3:20:49 PM
+
+Message: HandlingInstanceID: bc51c12d-63a2-4ddd-95e4-b01a13cd8a94
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 01:20:49
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 3:20:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-18-131130694755039703
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-18-131130694755039703
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:10396
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 3:28:49 PM
+
+Message: HandlingInstanceID: 4761730b-f341-49b1-b07c-bce349d85a06
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 01:28:49
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 3:28:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-19-131130699657178398
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-19-131130699657178398
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:12156
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 3:37:37 PM
+
+Message: HandlingInstanceID: 6c1449df-5686-46d6-813f-0d4f097d2844
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 01:37:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 3:37:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-20-131130704994918946
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-20-131130704994918946
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 3:37:37 PM
+
+Message: HandlingInstanceID: b1452114-147d-4e61-9917-9849359f3e01
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 01:37:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 3:37:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-20-131130704994918946
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:53408/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-20-131130704994918946
+
+ProcessId: 8584
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9148
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 11:32:58 PM
+
+Message: HandlingInstanceID: 812b22ca-dc1b-430e-84f7-d1bf4921e204
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+07/16/2016 09:32:58
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : System.ArgumentException: MsSqlDriver.GetCreateDatabaseSql : Database= missing
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : 
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+HResult : -2146233088
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 11:32:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131130990745251485
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:983/Progress_Test/sitefinity/default.aspx
+	Inner Exception
+	---------------
+	Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : MsSqlDriver.GetCreateDatabaseSql : Database= missing
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ParamName : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.String GetCreateDatabaseSql(System.String, System.String, System.Collections.IDictionary, Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver, System.IO.StreamWriter)
+	HResult : -2147024809
+	Stack Trace :    at OpenAccessRuntime.Relational.sql.MsSqlDriver.GetCreateDatabaseSql(String url, String databaseName, IDictionary p, DBDriver drv, StreamWriter out_Renamed)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131130990745251485
+
+ProcessId: 4212
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:6100
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 11:35:22 PM
+
+Message: HandlingInstanceID: c6ce1fe4-b6e2-4fb6-8295-ce6312815962
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 09:35:22
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 11:35:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131130992158539271
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:983/Progress_Test/appstatus?count=3
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131130992158539271
+
+ProcessId: 4212
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:872
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/15/2016 11:59:48 PM
+
+Message: HandlingInstanceID: 4352b1f5-d832-4a65-bb2d-38d5430bb9ff
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/16/2016 09:59:48
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/15/2016 11:59:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131007112758734
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:983/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131007112758734
+
+ProcessId: 4212
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:11008
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 12:08:31 AM
+
+Message: HandlingInstanceID: ffb11a70-146f-4e2a-8e0c-8a40a2bac887
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/16/2016 10:08:31
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 12:08:31 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131007112758734
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:983/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131007112758734
+
+ProcessId: 4212
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4552
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 12:19:45 AM
+
+Message: HandlingInstanceID: d6f450df-6bd2-4c36-8091-bb7e505987a8
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/16/2016 10:19:45
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 12:19:45 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131007112758734
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:983/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131007112758734
+
+ProcessId: 4212
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:11204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 12:20:00 AM
+
+Message: HandlingInstanceID: 43ba7d05-650f-4be7-af45-def3d096b8b0
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/16/2016 10:20:00
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 12:20:00 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131007112758734
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:983/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131007112758734
+
+ProcessId: 4212
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9268
+
+Extended Properties: 
+----------------------------------------

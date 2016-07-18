@@ -1,0 +1,2212 @@
+----------------------------------------
+Timestamp: 7/16/2016 2:03:05 PM
+
+Message: HandlingInstanceID: bac59174-d304-401e-8a41-a61153d140c1
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+07/17/2016 00:03:05
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'List.EventList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/MyEventWidget/List.EventList.cshtml
+~/Views/Shared/List.EventList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.cshtml
+~/Views/MyEventWidget/List.EventList.aspx
+~/Views/MyEventWidget/List.EventList.ascx
+~/Views/Shared/List.EventList.aspx
+~/Views/Shared/List.EventList.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.ascx#Bootstrap.ascx
+~/Views/MyEventWidget/List.EventList.vbhtml
+~/Views/Shared/List.EventList.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.vbhtml#Bootstrap.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:03:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131131507158196779
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131131507158196779
+
+ProcessId: 1544
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6664
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:03:30 PM
+
+Message: HandlingInstanceID: d2dd9f99-6cc4-4d25-adf2-09cd4ae89f59
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+07/17/2016 00:03:30
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'List.EventList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/MyEventWidget/List.EventList.cshtml
+~/Views/Shared/List.EventList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.cshtml
+~/Views/MyEventWidget/List.EventList.aspx
+~/Views/MyEventWidget/List.EventList.ascx
+~/Views/Shared/List.EventList.aspx
+~/Views/Shared/List.EventList.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.ascx#Bootstrap.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.aspx#Bootstrap.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.ascx#Bootstrap.ascx
+~/Views/MyEventWidget/List.EventList.vbhtml
+~/Views/Shared/List.EventList.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/MyEventWidget/List.EventList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/SitefinityWebApp/Mvc/Views/Shared/List.EventList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/MyEventWidget/List.EventList.vbhtml#Bootstrap.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.cshtml#Bootstrap.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/List.EventList.vbhtml#Bootstrap.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:03:30 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131131507158196779
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131131507158196779
+
+ProcessId: 1544
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5228
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:13:35 PM
+
+Message: HandlingInstanceID: de3a1a19-d71b-44d3-88bb-6ddf6b084079
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 00:13:35
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:13:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131131518486569086
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131131518486569086
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5936
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:15:28 PM
+
+Message: HandlingInstanceID: be92cea4-83b8-409c-9b1e-2ed6f50c037e
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:15:28
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:15:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131131518486569086
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131131518486569086
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:16:09 PM
+
+Message: HandlingInstanceID: 6338e03e-8674-4eca-9f29-cb662034cb88
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:16:09
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:16:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131131518486569086
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131131518486569086
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:11160
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:24:47 PM
+
+Message: HandlingInstanceID: 4abcbf52-fc90-4755-8e24-91ee969d8f13
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+07/17/2016 00:24:47
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <Initialize_DelegateImplementation>__88(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+HResult : -2146233040
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_a12acae200644fbabdfe9d1b19425037.<Initialize_DelegateImplementation>__88(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass1.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptionBehaviorPipeline.Invoke(IMethodInvocation input, InvokeInterceptionBehaviorDelegate target)
+   at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_a12acae200644fbabdfe9d1b19425037.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:24:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131131526320424653
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/Sitefinity/Services/Dashboard/DashboardService.svc/GetRecentItems/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131131526320424653
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:24:47 PM
+
+Message: HandlingInstanceID: 6bb4acf0-aa88-4e58-8b21-081bba20bcab
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+07/17/2016 00:24:47
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, System.Type)
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:24:47 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131131526320424653
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/Sitefinity/Services/Dashboard/DashboardService.svc/GetRecentItems/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131131526320424653
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:27:34 PM
+
+Message: HandlingInstanceID: 4ba3738a-156f-42ff-a7fc-f706f4b56bfc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 00:27:34
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:27:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131526886868825
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131526886868825
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:28:36 PM
+
+Message: HandlingInstanceID: 413d2810-ffbe-4bf6-b6f3-b6b74715c5b2
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:28:36
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:28:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131526886868825
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131526886868825
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4616
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:29:12 PM
+
+Message: HandlingInstanceID: 5f40c0fe-9f45-4a77-b97a-f9fa1a9bd875
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:29:12
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:29:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131526886868825
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131526886868825
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:29:50 PM
+
+Message: HandlingInstanceID: 2968e325-3163-49e3-afd0-2a4e2e99b4b1
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:29:50
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:29:50 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-3-131131526886868825
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-3-131131526886868825
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5320
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:37:59 PM
+
+Message: HandlingInstanceID: 70f773de-bd2d-4410-bf66-35352489d8fd
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 00:37:58
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:37:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-4-131131533374440042
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-4-131131533374440042
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:5796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:37:59 PM
+
+Message: HandlingInstanceID: 590820f4-249a-4cbd-8e30-06515c4be3d0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 00:37:58
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:37:58 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-4-131131533374440042
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-4-131131533374440042
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3532
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:38:29 PM
+
+Message: HandlingInstanceID: 223f5a27-1040-4741-b43a-fbfa76bb6dd3
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:38:29
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:38:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-4-131131533374440042
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-4-131131533374440042
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:39:05 PM
+
+Message: HandlingInstanceID: d1f5625b-e803-41cc-ae7f-1f49594ec287
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:39:05
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:39:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-4-131131533374440042
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-4-131131533374440042
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:9332
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:39:25 PM
+
+Message: HandlingInstanceID: 7994eeb3-4300-4458-996d-38b6cf6433ce
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:39:25
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:39:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-4-131131533374440042
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-4-131131533374440042
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:50:18 PM
+
+Message: HandlingInstanceID: c47b806f-7d88-4177-8b59-c3735952f5fd
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 00:50:18
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:50:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131131540705520837
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131131540705520837
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4872
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:50:18 PM
+
+Message: HandlingInstanceID: f77610bc-3fe3-459f-a8d5-bced6fa819a4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 00:50:18
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:50:18 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131131540705520837
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131131540705520837
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4916
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/16/2016 2:51:45 PM
+
+Message: HandlingInstanceID: 551cc229-eacd-4a3e-8cef-107022edd63f
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 00:51:45
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_List_EventsList_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\List.EventsList.cshtml:line 8
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/16/2016 2:51:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131131540705520837
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:36017/Progress_Test/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131131540705520837
+
+ProcessId: 9272
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:3532
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 12:54:34 AM
+
+Message: HandlingInstanceID: 1a3e5fdc-a3f4-4792-a118-46c6859c318a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 10:54:34
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/Default.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 12:54:34 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131131903870580336
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/Default.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131131903870580336
+
+ProcessId: 11960
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9544
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 12:57:37 AM
+
+Message: HandlingInstanceID: 04a8a0e1-7765-43f1-9afd-1db8c34ed100
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 10:57:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/Default.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 12:57:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131131905690373372
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/Default.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131131905690373372
+
+ProcessId: 4100
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1428
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 1:00:56 AM
+
+Message: HandlingInstanceID: 366f22ed-4551-4d25-bf4f-b0fc5d196f26
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 11:00:56
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 1:00:56 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131131907452484541
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131131907452484541
+
+ProcessId: 10448
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2908
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 1:05:12 AM
+
+Message: HandlingInstanceID: 358ed6fd-711d-44d0-b190-295fc8f5d73f
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/17/2016 11:05:12
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : SitefinityWebApp
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Execute()
+HResult : -2147467261
+Stack Trace :    at ASP._MVC_Views_MyEventWidget_Index_cshtml.Execute() in C:\Program Files (x86)\Progress\Sitefinity\Projects\Progress_Test\obj\CodeGen\MVC\MVC\Views\MyEventWidget\Index.cshtml:line 18
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 1:05:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131131909307281294
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/home/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131131909307281294
+
+ProcessId: 876
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8276
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 1:57:05 AM
+
+Message: HandlingInstanceID: 88dc87ac-3243-4330-b3f2-5addb7a14b6d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 11:57:05
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 1:57:05 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131131940827846501
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:41287/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131131940827846501
+
+ProcessId: 8712
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:7412
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 10:48:02 AM
+
+Message: HandlingInstanceID: 358c676c-34ca-4840-9102-a03d3397a4a3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 20:48:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 10:48:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-1-131132259405042736
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-1-131132259405042736
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:8036
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:03:02 AM
+
+Message: HandlingInstanceID: e97a70e2-c53b-44bd-923e-402b40c4050c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 21:03:02
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:03:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131132269005121262
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131132269005121262
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4172
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:03:02 AM
+
+Message: HandlingInstanceID: 319eee66-558e-4195-be55-db48ae4647e1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 21:03:02
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:03:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-2-131132269005121262
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-2-131132269005121262
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 11:49:27 AM
+
+Message: HandlingInstanceID: 7bc7b9fd-a620-4848-a857-14ec84c24dab
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 21:49:27
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Boolean ProcessRequestForNonMapPathBasedVirtualFile(System.Web.HttpRequest, System.Web.HttpResponse, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.StaticFileHandler.ProcessRequestForNonMapPathBasedVirtualFile(HttpRequest request, HttpResponse response, String overrideVirtualPath)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 11:49:27 AM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : b6dbaba1-5-131132297028322011
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:11791/Progress_Test/appstatus?count=1
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: b6dbaba1-5-131132297028322011
+
+ProcessId: 10920
+
+Process Name: C:\Program Files (x86)\Progress\Sitefinity\SitefinityCMS.exe
+
+Thread Name: 
+
+Win32 ThreadId:4916
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 12:16:24 PM
+
+Message: HandlingInstanceID: e35f789e-d630-4e0a-9609-5c8655fe3cfa
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+07/17/2016 22:16:23
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Telerik.Sitefinity.Dashboard.Web.DashboardService.<>c__DisplayClassa.<GetRecentItems>b__1(WorkFlowStatusViewModel item)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Telerik.Sitefinity.Dashboard.Web.DashboardService.GetRecentItems(DashboardRecentItemsViewModel model)
+   at SyncInvokeGetRecentItems(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 12:16:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132309445397465
+ThreadIdentity : 
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Sitefinity/Services/Dashboard/DashboardService.svc/GetRecentItems/
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry>().Where(e => (((e.ItemType != value(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).pageNodeTypeName) AndAlso value(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).providersArray.Contains(e.ItemProvider)) OrElse ((e.ItemType == value(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).pageNodeTypeName) AndAlso (e.SiteId == value(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).currentSiteId)))).Where(e => value(Telerik.Sitefinity.Dashboard.Web.DashboardService+<>c__DisplayClassc).statusTitles.Contains(e.Status)).Where(status => status.Status.Equals(value(Telerik.Sitefinity.Dashboard.Web.DashboardService+<>c__DisplayClassa+<>c__DisplayClasse).item.Name))'. Failure: Telerik.OpenAccess.Exceptions.DataStoreException: Unable to connect to Backend=mssql;Driver=genericADO2;ConnectionString=Data Source=.\SQLExpress;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Sitefinity.mdf:
+Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+DBDriver: Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver
+useUTCForReads=1
+versant.prepareCommands=True Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon() ---> Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+   --- End of inner exception stack trace ---
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealConWithRetry(Int32 retryCountParam, Int32 millis, Int32 userId)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createPooledConnection(Int32 retryCountParam, Int32 retryIntervalMsParam, Int32 userId)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.GetManagedConnection(Boolean highPriority, Boolean autoCommit, Int32 smId)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.getConnection(Boolean highPriority, Boolean autoCommit, Int32 smId)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.obtainConnection(Boolean forWriting)
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Call System.Linq.Queryable.Where(
+            .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry]>(Extent<Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry>()),
+            '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry,System.Boolean]>)),
+        '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry,System.Boolean]>)),
+    '(.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry,System.Boolean]>(Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry $e)
+{
+    $e.ItemType != .Constant<Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0>(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).pageNodeTypeName
+    && .Call System.Linq.Enumerable.Contains(
+        .Constant<Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0>(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).providersArray,
+        $e.ItemProvider) || $e.ItemType == .Constant<Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0>(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).pageNodeTypeName
+    && $e.SiteId == .Constant<Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0>(Telerik.Sitefinity.Dashboard.DashboardSiteFilter+<>c__DisplayClass0).currentSiteId
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry,System.Boolean]>(Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry $e)
+{
+    .Call System.Linq.Enumerable.Contains(
+        .Constant<Telerik.Sitefinity.Dashboard.Web.DashboardService+<>c__DisplayClassc>(Telerik.Sitefinity.Dashboard.Web.DashboardService+<>c__DisplayClassc).statusTitles,
+        $e.Status)
+}
+
+.Lambda #Lambda3<System.Func`2[Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry,System.Boolean]>(Telerik.Sitefinity.Dashboard.Model.DashboardLogEntry $status)
+{
+    .Call ($status.Status).Equals((.Constant<Telerik.Sitefinity.Dashboard.Web.DashboardService+<>c__DisplayClassa+<>c__DisplayClasse>(Telerik.Sitefinity.Dashboard.Web.DashboardService+<>c__DisplayClassa+<>c__DisplayClasse).item).Name)
+}
+
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233079
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformQueryCount[T](Expression expression, ChainedContext context)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+	   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Telerik.OpenAccess.Exceptions.DataStoreException: Unable to connect to Backend=mssql;Driver=genericADO2;ConnectionString=Data Source=.\SQLExpress;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Sitefinity.mdf:
+Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+DBDriver: Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver
+useUTCForReads=1
+versant.prepareCommands=True Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon() ---> Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+   --- End of inner exception stack trace ---
+   at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealConWithRetry(Int32 retryCountParam, Int32 millis, Int32 userId)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createPooledConnection(Int32 retryCountParam, Int32 retryIntervalMsParam, Int32 userId)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.GetManagedConnection(Boolean highPriority, Boolean autoCommit, Int32 smId)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.getConnection(Boolean highPriority, Boolean autoCommit, Int32 smId)
+   at OpenAccessRuntime.Relational.RelationalStorageManager.obtainConnection(Boolean forWriting)
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		InnerExceptions : System.Exception[]
+		FailedObject : 
+		BackendError : 
+		Reason : Internal
+		CanRetry : False
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Exception Throw()
+		HResult : -2146233088
+		Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+		   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.executeQueryCount(ImmutableQueryDetails query, CompiledQuery compiledQuery, QueryParameters parameters)
+		   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.getQueryRowCount(CompiledQuery cq, QueryParameters parameters)
+		   at OpenAccessRuntime.DataObjects.ForwardQueryResult.countRows()
+		   at OpenAccessRuntime.ListEnumerator.GetTotalCount()
+		   at OpenAccessRuntime.QueryResultImpl.Telerik.OpenAccess.IQueryResult.GetTotalCount()
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+		   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+			Inner Exception
+			---------------
+			Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+			Message : Unable to connect to Backend=mssql;Driver=genericADO2;ConnectionString=Data Source=.\SQLExpress;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Sitefinity.mdf:
+Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+DBDriver: Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver
+useUTCForReads=1
+versant.prepareCommands=True Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+			Source : Telerik.OpenAccess.Runtime
+			Help link : 
+			InnerExceptions : System.Exception[]
+			FailedObject : 
+			BackendError : Telerik.OpenAccess.RT.sql.SQLException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   --- End of inner exception stack trace ---
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+			Reason : Runtime
+			CanRetry : False
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : System.Exception Throw()
+			HResult : -2146233088
+			Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+			   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+			   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealConWithRetry(Int32 retryCountParam, Int32 millis, Int32 userId)
+			   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createPooledConnection(Int32 retryCountParam, Int32 retryIntervalMsParam, Int32 userId)
+			   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.GetManagedConnection(Boolean highPriority, Boolean autoCommit, Int32 smId)
+			   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.getConnection(Boolean highPriority, Boolean autoCommit, Int32 smId)
+			   at OpenAccessRuntime.Relational.RelationalStorageManager.obtainConnection(Boolean forWriting)
+
+				Inner Exception
+				---------------
+				Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2016.1.224.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+				Message : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35; 
+				Source : Telerik.OpenAccess.Runtime
+				Help link : 
+				ErrorCode : -2
+				ArrayBindIndex : -1
+				Number : -2
+				ObjectId : 
+				Description : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35; 
+				Data : System.Collections.ListDictionaryInternal
+				TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+				HResult : -2146233088
+				Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+				   at OpenAccessRuntime.Relational.conn.RelationalConnectionPool.createRealCon()
+
+					Inner Exception
+					---------------
+					Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+					Message : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=110945; handshake=35; 
+					Source : .Net SqlClient Data Provider
+					Help link : 
+					Errors : System.Data.SqlClient.SqlErrorCollection
+					ClientConnectionId : 31cd7f51-d337-4efb-aed4-3b691dc50e95
+					Class : 11
+					LineNumber : 0
+					Number : -2
+					Procedure : 
+					Server : \\.\pipe\CF72083F-1BFF-40\tsql\query
+					State : 0
+					ErrorCode : -2146232060
+					Data : System.Collections.ListDictionaryInternal
+					TargetSite : Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean)
+					HResult : -2146232060
+					Stack Trace :    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+					   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+					   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+					   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+					   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+					   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+					   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+					   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+					   at System.Data.SqlClient.SqlConnection.Open()
+					   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
+					   at Telerik.OpenAccess.Runtime.Logging.LoggingDbConnection.Open()
+					   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
+
+						Inner Exception
+						---------------
+						Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+						Message : The wait operation timed out
+						Source : 
+						Help link : 
+						NativeErrorCode : 258
+						ErrorCode : -2147467259
+						Data : System.Collections.ListDictionaryInternal
+						TargetSite : 
+						HResult : -2147467259
+						Stack Trace : The stack trace is unavailable.
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132309445397465
+
+ProcessId: 8836
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10596
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 7/17/2016 12:22:54 PM
+
+Message: HandlingInstanceID: 4f7937f1-939b-4d28-a53a-e59f5ddcaef0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+07/17/2016 22:22:54
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : TIJUGUDDY
+TimeStamp : 7/17/2016 12:22:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=9.1.6110.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-131132316716887771
+ThreadIdentity : admin
+WindowsIdentity : TIJUGUDDY\Tiju
+Requested URL : http://localhost:60876/Mvc/Views/MyEventWidget/DesignerView.MyView.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: TIJUGUDDY
+
+App Domain: /LM/W3SVC/2/ROOT-1-131132316716887771
+
+ProcessId: 5696
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4312
+
+Extended Properties: 
+----------------------------------------
